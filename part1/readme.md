@@ -80,4 +80,12 @@ Open browser, type localhost:8080
 
 Message visible in browser: "Ports configured correctly!!"
 
+## Task 1.10
+
+[Dockerfile](https://github.com/mshroom/DevOpsWithDocker/blob/master/part1/ex-1-10/Dockerfile)
+
+`docker build -t task10 .`
+
+`docker run -p 5000:5000 task10`
+
 
