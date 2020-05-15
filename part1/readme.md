@@ -29,3 +29,17 @@
 `docker exec -it task1-4 bash`
 
 ![task1.4](https://github.com/mshroom/DevOpsWithDocker/blob/master/part1/ex-1-4.png)
+
+## Task 1.5
+
+`docker run --rm -it --name task1.5 ubuntu:16.04 sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'`
+
+In another terminal:
+
+`docker exec task1.5 apt-get update`
+
+`exec task1.5 apt-get install -y curl wget`
+
+Back to the first:
+
+![task1.5](https://github.com/mshroom/DevOpsWithDocker/blob/master/part1/ex-1-5.png)
