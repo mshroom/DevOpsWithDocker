@@ -117,3 +117,13 @@ Message visible in browser: "Ports configured correctly!!"
 `docker build -t spring .`
 
 `docker run -p 8080:8080 spring`
+
+## Task 1.14
+
+[Dockerfile](https://github.com/mshroom/DevOpsWithDocker/blob/master/part1/ex-1-14/Dockerfile)
+
+`docker build -t rails .`
+
+`docker run -p 3000:3000 rails`
+
+
