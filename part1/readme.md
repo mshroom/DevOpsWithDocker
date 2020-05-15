@@ -128,6 +128,6 @@ Message visible in browser: "Ports configured correctly!!"
 
 ## Task 1.15
 
-[Project in Dockerhub](https://hub.docker.com/repository/docker/mshroom/cats)
+[Project in Dockerhub](https://hub.docker.com/r/mshroom/cats)
 
 
