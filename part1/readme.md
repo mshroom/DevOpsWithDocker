@@ -21,3 +21,11 @@
 `docker run -it devopsdockeruh/pull_exercise`
 
 ![task 1.3](https://github.com/mshroom/DevOpsWithDocker/blob/master/part1/ex-1-3.png)
+
+## Task 1.4
+
+`docker run -d --name task1-4 devopsdockeruh/exec_bash_exercise`
+
+`docker exec -it task1-4 bash`
+
+![task1.4](https://github.com/mshroom/DevOpsWithDocker/blob/master/part1/ex-1-4.png)
