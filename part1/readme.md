@@ -96,3 +96,16 @@ Message visible in browser: "Ports configured correctly!!"
 
 `docker run -d -v $(pwd)/logs.txt:/mydir/logs.txt -p 8000:8000 task11`
 
+## Task 1.12
+
+[Dockerfile front](https://github.com/mshroom/DevOpsWithDocker/blob/master/part1/ex-1-12/front/Dockerfile)
+
+`docker build -t front .`
+
+`docker run -p 5000:5000 front`
+
+[Dockerfile back](https://github.com/mshroom/DevOpsWithDocker/blob/master/part1/ex-1-12/back/Dockerfile)
+
+`docker build -t back .`
+
+`docker run -d -v $(pwd)/logs.txt:/mydir/logs.txt -p 8000:8000 back`
