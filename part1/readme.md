@@ -15,3 +15,9 @@
 `docker images`
 
 ![task 1.2](https://github.com/mshroom/DevOpsWithDocker/blob/master/part1/ex-1-2b.png)
+
+## Task 1.3
+
+`docker run -it devopsdockeruh/pull_exercise`
+
+![task 1.3](https://github.com/mshroom/DevOpsWithDocker/blob/master/part1/ex-1-3.png)
