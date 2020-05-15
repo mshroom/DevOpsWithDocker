@@ -88,4 +88,11 @@ Message visible in browser: "Ports configured correctly!!"
 
 `docker run -p 5000:5000 task10`
 
+## Task 1.11
+
+[Dockerfile](https://github.com/mshroom/DevOpsWithDocker/blob/master/part1/ex-1-11/Dockerfile)
+
+`docker build -t task11 .`
+
+`docker run -d -v $(pwd)/logs.txt:/mydir/logs.txt -p 8000:8000 task11`
 
