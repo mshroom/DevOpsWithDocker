@@ -43,3 +43,13 @@ In another terminal:
 Back to the first:
 
 ![task1.5](https://github.com/mshroom/DevOpsWithDocker/blob/master/part1/ex-1-5.png)
+
+## Task 1.6
+
+[Dockerfile](https://github.com/mshroom/DevOpsWithDocker/blob/master/part1/ex-1-6/Dockerfile)
+
+`docker build -t docker-clock .`
+
+`docker run docker-clock`
+
+
