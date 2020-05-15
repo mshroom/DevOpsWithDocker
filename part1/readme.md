@@ -63,3 +63,12 @@ Back to the first:
 `docker run -it curler`
 
 Output same as task 1.5
+
+## Task 1.8
+
+`touch logs.txt`
+
+`docker run -d -v $(pwd)/logs.txt:/usr/app/logs.txt devopsdockeruh/first_volume_exercise`
+
+Continues to write the logs until the container is stopped. 
+
