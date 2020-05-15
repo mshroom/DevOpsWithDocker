@@ -52,4 +52,14 @@ Back to the first:
 
 `docker run docker-clock`
 
+## Task 1.7
 
+[Dockerfile](https://github.com/mshroom/DevOpsWithDocker/blob/master/part1/ex-1-7/Dockerfile)
+
+[Script file](https://github.com/mshroom/DevOpsWithDocker/blob/master/part1/ex-1-7/curler.sh)
+
+`docker build -t curler .`
+
+`docker run -it curler`
+
+Output same as task 1.5
