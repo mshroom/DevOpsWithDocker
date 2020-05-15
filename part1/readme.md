@@ -72,3 +72,12 @@ Output same as task 1.5
 
 Continues to write the logs until the container is stopped. 
 
+## Task 1.9
+
+`docker run -p 8080:80 devopsdockeruh/ports_exercise`
+
+Open browser, type localhost:8080
+
+Message visible in browser: "Ports configured correctly!!"
+
+
