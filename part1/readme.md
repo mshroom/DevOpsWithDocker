@@ -109,3 +109,11 @@ Message visible in browser: "Ports configured correctly!!"
 `docker build -t back .`
 
 `docker run -d -v $(pwd)/logs.txt:/mydir/logs.txt -p 8000:8000 back`
+
+## Task 1.13
+
+[Dockerfile](https://github.com/mshroom/DevOpsWithDocker/blob/master/part1/ex-1-13/Dockerfile)
+
+`docker build -t spring .`
+
+`docker run -p 8080:8080 spring`
