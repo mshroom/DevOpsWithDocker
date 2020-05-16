@@ -30,5 +30,12 @@ Button at http://localhost:5000/ working
 
 The button at http://localhost:3000/ turns green now.
 
+## Task 2.5
+
+[docker-compose.yml](https://github.com/mshroom/DevOpsWithDocker/blob/master/part2/task-2-5/docker-compose.yml)
+
+`docker-compose up`
+
+The button at http://localhost:8000/ turns green now. "Working! It took 0.023 seconds."
 
 
