@@ -38,4 +38,10 @@ The button at http://localhost:3000/ turns green now.
 
 The button at http://localhost:8000/ turns green now. "Working! It took 0.023 seconds."
 
+## Task 2.6
+
+[docker-compose.yml](https://github.com/mshroom/DevOpsWithDocker/blob/master/part2/task-2-6/docker-compose.yml)
+
+`docker-compose up`
+
 
