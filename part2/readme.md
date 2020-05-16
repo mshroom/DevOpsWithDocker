@@ -16,5 +16,13 @@ Logs are written to logs.txt
 
 Message visible at localhost:8080: "Ports configured correctly!!"
 
+## Task 2.3
+
+[docker-compose.yml](https://github.com/mshroom/DevOpsWithDocker/blob/master/part2/task-2-3/docker-compose.yml)
+
+`docker-compose up`
+
+Button at http://localhost:5000/ working
+
 
 
