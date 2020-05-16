@@ -24,5 +24,11 @@ Message visible at localhost:8080: "Ports configured correctly!!"
 
 Button at http://localhost:5000/ working
 
+## Task 2.4
+
+`docker-compose up -d --scale compute=3`
+
+The button at http://localhost:3000/ turns green now.
+
 
 
