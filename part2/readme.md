@@ -50,6 +50,10 @@ The button at http://localhost:8000/ turns green now. "Working! It took 0.023 se
 
 [docker-compose.yml](https://github.com/mshroom/DevOpsWithDocker/blob/master/part2/task-2-7/docker-compose.yml)
 
+## Task 2.8
+
+[docker-compose.yml](https://github.com/mshroom/DevOpsWithDocker/blob/master/part2/task-2-8/docker-compose.yml)
+
 
 
 
